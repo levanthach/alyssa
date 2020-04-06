@@ -1,0 +1,1 @@
+<?php include get_template_directory() .  '/template-06_Alyssa_web_Tintuc.php' ?>

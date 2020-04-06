@@ -1,0 +1,33 @@
+.incentives {
+	.post.post-horizontal{
+		img{
+		    
+		    object-fit: cover;
+		    @media(min-width: 1024px){
+		    	height: 201px;		    	
+		    }
+		}	
+	} 
+	.post-vertical{
+		height: calc(100% - 15px);
+		h3{
+			margin-top: 15px;
+		}
+	}
+	
+}
+.blog .blog-featured .blog-list .item {
+	img{
+	    
+	    @media(min-width: 1024px){
+		    	height: 100px;		    	
+		    }
+		    @media(min-width: 1366px){
+		    	height: 123px;		    	
+		    }
+		    @media(min-width: 1680px){
+		    	height: 179px;		    	
+		    }
+    	object-fit: cover;
+	}	
+}

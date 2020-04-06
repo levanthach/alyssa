@@ -1,0 +1,94 @@
+// ---------------------------------------
+// Add font
+// ---------------------------------------
+
+//@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&amp;subset=latin-ext,vietnamese');
+
+
+// .f-{font}
+
+@include p-font('Pattaya','../font/pattaya/Pattaya-Regular.ttf');
+
+
+@include p-font('Philosopher-Regular','../font/philosopher/Philosopher-Regular.ttf'); 
+@include p-font('Philosopher-Bold','../font/philosopher/Philosopher-Bold.ttf');
+@include p-font('Philosopher-Italic','../font/philosopher/Philosopher-Italic.ttf');
+@include p-font('Philosopher-Light','../font/philosopher/Philosopher-Light.ttf');
+
+//open sans
+
+@include p-font('OpenSans-Regular','../font/opensans/OpenSans-Regular.ttf'); 
+@include p-font('OpenSans-SemiBold','../font/opensans/OpenSans-SemiBold.ttf');
+@include p-font('OpenSans-Bold','../font/opensans/OpenSans-Bold.ttf');
+@include p-font('OpenSans-BoldItalic','../font/opensans/OpenSans-BoldItalic.ttf');
+@include p-font('OpenSans-Medium','../font/opensans/OpenSans-Medium.ttf');
+@include p-font('OpenSans-Light','../font/opensans/OpenSans-Light.ttf');
+
+
+
+//hevetical neav
+
+@include p-font('Helveticaneue-Regular','../font/helveticaneue/helveticaneue.ttf'); 
+@include p-font('Helveticaneue-Bold','../font/helveticaneue/helveticaneuebold.ttf');
+@include p-font('Helveticaneue-iBold','../font/helveticaneue/helveticaneuebolditalic.ttf');
+@include p-font('Helveticaneue-Medium','../font/helveticaneue/helveticaneuemedium.ttf');
+@include p-font('Helveticaneue-Light','../font/helveticaneue/helveticaneuelight.ttf');
+
+@include p-font('Montserrat-Regular','../font/montserrat/Montserrat-Regular.ttf'); 
+@include p-font('Montserrat-Bold','../font/montserrat/Montserrat-Bold.ttf');
+@include p-font('Montserrat-iBold','../font/montserrat/Montserrat-iBold.ttf');
+@include p-font('Montserrat-Medium','../font/montserrat/Montserrat-Medium.ttf');
+@include p-font('Montserrat-Light','../font/montserrat/Montserrat-Light.ttf');
+
+
+
+
+
+$f_df:'OpenSans-Regular', arial , serif;
+$f_medium:'OpenSans-Medium', arial , serif;
+$f_sbold:'OpenSans-SemiBold', arial , serif;
+$f_bold:'OpenSans-Bold', arial , serif;
+$f_ibold:'OpenSans-BoldItalic', arial , serif;
+$f_light:'OpenSans-Light', arial , serif; 
+
+
+$f2_df:'Pattaya', arial , serif;
+
+.f-df{
+	font-family: $f_df;
+}
+.f-bold{
+	font-family: $f_bold;
+}
+.f-ibold{
+	font-family: $f_ibold;
+}
+.f-medium{
+	font-family: $f_medium;
+}
+.f-light{
+	font-family: $f_light;
+}
+
+.f2-df{
+	font-family: $f2_df;
+}
+// .f2-bold{
+// 	font-family: $f2_bold;
+// }
+// .f2-ibold{
+// 	font-family: $f2_ibold;
+// }
+// .f2-sbold{
+// 	font-family: $f2_sbold;
+// }
+// .f2-medium{
+// 	font-family: $f2_medium;
+// }
+// .f2-light{
+// 	font-family: $f2_light;
+// }
+
+$font_body:  $f_df;
+
+
